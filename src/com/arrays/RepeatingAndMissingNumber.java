@@ -1,3 +1,4 @@
+package com.arrays;
 import java.util.*;
 
 public class RepeatingAndMissingNumber {
@@ -56,12 +57,12 @@ public class RepeatingAndMissingNumber {
 			num[i]=sc.nextInt();
 		}
 		
-		
+//		optimal approach using mathematical calculation with time complexity : O(n) and space complexity : O(1)		
 		int oAns[] = optimal_RepeatedAndMissingNumber(num);
 		System.out.println("repeated:"+oAns[0] +" missing:"+ oAns[1]);
 
 		
-//		uncomment for Brute output
+//		for Brute output generic process with time complexity : O(N*2) and space complexity : O(1)
 //		int bAns[] = brute_repeatedAndMissingNum(num, size);
 //		System.out.println("repeated:"+bAns[0] +" missing:"+ bAns[1]);
 	}

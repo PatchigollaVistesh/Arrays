@@ -1,3 +1,4 @@
+package com.arrays;
 import java.util.*;
 public class revArray {
 	public static void main(String[] args)
